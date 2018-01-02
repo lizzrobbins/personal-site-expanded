@@ -1,0 +1,72 @@
+body {
+  background: url('./background-image.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: center;
+}
+
+.App-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.App-logo {
+  height: 80px;
+  margin: 2vh 2vh 2vh 2vh;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.nav-container {
+  margin: 2vh 2vh 2vh 2vh;
+}
+
+.nav-links {
+  padding: 2vh 2vh 2vh 2vh;
+  color: white;
+}
+
+.nav-links:hover {
+  color: purple;
+  background-color: white;
+}
+
+.main-intro, .about-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  text-align: right;
+}
+
+.my-name, .my-handle {
+  color: white;
+  font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+}
+
+.my-name {
+  font-size: 10vh;
+  margin-top: 0vh;
+  margin-bottom: -2.5vh;
+}
+
+.my-handle {
+  font-size: 3vh;
+  margin-top: -2vh;
+}
+
+.about-container {
+  font-size: 3vh;
+  text-align: center;
+  padding: 10vh;
+}
+
+.about-content {
+  color: white;
+  font-family: Futura-Medium, "Trebuchet MS", Arial, sans-serif;
+}
