@@ -13,7 +13,7 @@ body {
 }
 
 .App-logo {
-  height: 80px;
+  height: 15vh;
   margin: 2vh 2vh 2vh 2vh;
 }
 
@@ -36,11 +36,11 @@ body {
 }
 
 .main-intro {
-  margin: 20% 0 0 3%;
+  margin: 18% 0 25% 3%;
   text-align: center;
 }
 
-.my-name, .my-handle, .nav-links {
+.my-name, .my-handle, .nav-links, .about-title {
   color: white;
   font-family: Futura, "Trebuchet MS", Arial, sans-serif;
 }
@@ -57,12 +57,16 @@ body {
 }
 
 .about-container {
-  font-size: 3vh;
+  font-size: 2.5vh;
   text-align: center;
   padding: 10vh;
 }
 
 .about-content {
   color: white;
-  font-family: Futura-Medium, "Trebuchet MS", Arial, sans-serif;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.about-title {
+  font-size: 5vh;
 }
