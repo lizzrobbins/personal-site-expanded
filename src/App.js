@@ -60,9 +60,9 @@ class App extends Component {
             togglePortfolio={this.togglePortfolio}/>
         </header>
         <main>
-          {this.state.main ? <MainTitle /> : null}
-          {this.state.about ? <AboutSection /> : null}
-          {this.state.portfolio ? <PortfolioPage /> : null}
+          <MainTitle />
+          <AboutSection />
+          <PortfolioPage />
         </main>
       </div>
     );

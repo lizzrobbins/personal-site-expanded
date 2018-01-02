@@ -4,10 +4,10 @@ class Nav extends Component {
   render() {
     return(
       <nav className="nav-container">
-        <a onClick={this.props.toggleMain} className="nav-links">Home</a>
-        <a onClick={this.props.toggleAbout} className="nav-links">About</a>
-        <a onClick={this.props.togglePortfolio} className="nav-links">Portfolio</a>
-        <a className="nav-links">Resume</a>
+        <a onClick={this.props.toggleMain} className="nav-links">HOME</a>
+        <a onClick={this.props.toggleAbout} className="nav-links">ABOUT</a>
+        <a onClick={this.props.togglePortfolio} className="nav-links">PORTFOLIO</a>
+        <a className="nav-links">RESUME</a>
       </nav>
     )
   }
