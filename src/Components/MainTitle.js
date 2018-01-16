@@ -8,7 +8,7 @@ class MainTitle extends Component {
             Lizz Robbins
           </p>
           <p className="my-handle">
-            Full Stack Developer
+            Full Stack Developer | UX Enthusiast
           </p>
         </div>
     )
