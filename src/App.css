@@ -19,6 +19,13 @@ body {
   margin: 2vh 2vh 2vh 2vh;
 }
 
+.App-logo:hover {
+  height: 15vh;
+  margin: 2vh 2vh 2vh 2vh;
+  opacity: 0.7;
+  color: purple;
+}
+
 .App-intro {
   font-size: large;
 }
@@ -59,15 +66,15 @@ body {
 }
 
 .about-container {
-  background-color: white;
-  font-size: 2.5vh;
+  background-color: #fcfcfc;
+  font-size: 20px;
   text-align: left;
   padding: 10vh;
 }
 
 .about-content {
   color: black;
-  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 .about-title {
@@ -77,15 +84,15 @@ body {
 
 /* PortfolioPage */
 .portfolio-container {
-  background-color: black;
-  padding: 3vh 3vh 3vh 3vh;
-  /* padding-bottom: 3vh; */
+  background-color: #1C1C1C;
+  padding: 10vh 10vh 10vh 10vh;
 }
 
 .portfolio-item {
   color: white;
   font-family: Futura, "Trebuchet MS", Arial, sans-serif;
   margin-top: 0;
+  padding-bottom: 2vh;
 }
 
 .project-title {
@@ -99,7 +106,18 @@ body {
   text-decoration: none;
 }
 
+.project-links a:hover {
+  color: purple;
+  text-decoration: none;
+}
+
 .project-links, .project-description, .project-technologies {
+  padding: 0vh 3vh 0vh 3vh;
+  font-size: 16px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.project-links, .project-technologies {
   padding: 0vh 3vh 0vh 3vh;
 }
 
