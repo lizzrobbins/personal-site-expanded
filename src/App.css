@@ -42,7 +42,7 @@ body {
   text-align: center;
 }
 
-.my-name, .my-handle, .nav-links, .about-title {
+.my-name, .my-handle, .nav-links, .about-title, .project-title {
   color: black;
   font-family: Futura, "Trebuchet MS", Arial, sans-serif;
 }
@@ -76,6 +76,33 @@ body {
 }
 
 /* PortfolioPage */
+.portfolio-container {
+  background-color: black;
+  padding: 3vh 3vh 3vh 3vh;
+  /* padding-bottom: 3vh; */
+}
+
 .portfolio-item {
-  color: black;
+  color: white;
+  font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+  margin-top: 0;
+}
+
+.project-title {
+  color: white;
+  font-size: 30px;
+  margin: 0 0 0 0;
+}
+
+.project-links a {
+  color: white;
+  text-decoration: none;
+}
+
+.project-links, .project-description, .project-technologies {
+  padding: 0vh 3vh 0vh 3vh;
+}
+
+.project-description {
+  padding: 0vh 3vh 0vh 5vh;
 }
