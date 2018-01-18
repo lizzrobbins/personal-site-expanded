@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import logo from './black-logo.png';
+import purpleLogo from './purple-logo.png';
 import Nav from './Components/Nav.js';
 import MainTitle from './Components/MainTitle.js';
 import AboutSection from './Components/AboutSection.js';
@@ -53,14 +54,15 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
+          <img src={purpleLogo} className="App-logo-purple" alt="purple logo" />
           <img src={logo} className="App-logo" alt="logo" />
           <Nav
             toggleMain={this.toggleMain}
             toggleAbout={this.toggleAbout}
             togglePortfolio={this.togglePortfolio}/>
+          <MainTitle />
         </header>
         <main>
-          <MainTitle />
           <AboutSection />
           <PortfolioPage />
         </main>
