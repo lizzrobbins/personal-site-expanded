@@ -5,6 +5,7 @@ import Nav from './Components/Nav.js';
 import MainTitle from './Components/MainTitle.js';
 import AboutSection from './Components/AboutSection.js';
 import PortfolioPage from './Components/PortfolioPage.js';
+import ContactMe from './Components/ContactMe.js';
 import './App.css';
 
 class App extends Component {
@@ -65,6 +66,7 @@ class App extends Component {
         <main>
           <AboutSection />
           <PortfolioPage />
+          <ContactMe />
         </main>
       </div>
     );
