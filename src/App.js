@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Favicon from 'react-favicon';
-import logo from './black-logo.png';
-import purpleLogo from './purple-logo.png';
+import logo from './images/black-logo.png';
+import purpleLogo from './images/purple-logo.png';
 import Nav from './Components/Nav.js';
 import MainTitle from './Components/MainTitle.js';
 import AboutSection from './Components/AboutSection.js';

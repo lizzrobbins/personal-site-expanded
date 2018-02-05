@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import emailIcon from '../email-icon.png';
-import linkedinIcon from '../linkedin-icon.png';
-import githubIcon from '../github-icon.png';
+import emailIcon from '../images/email-icon.png';
+import linkedinIcon from '../images/linkedin-icon.png';
+import githubIcon from '../images/github-icon.png';
 
 class MainTitle extends Component {
   render() {
