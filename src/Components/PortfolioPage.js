@@ -6,12 +6,13 @@ class PortfolioPage extends Component {
       <div className="portfolio-container">
         <a name="portfolio"></a>
         <p className="portfolio-item">
-          <h3 className="project-title">CAPSTONE</h3>
-          <p className="project-links"><a href="galvanize-hq.firebaseapp.com">URL HERE</a> | <a href="github.com/Go-Getters-g64/g-hq">github.com/lizzrobbins/_____</a></p>
+          <h3 className="project-title">Capstone: UmiGo</h3>
+          <p className="project-links">
+            <a href="github.com/Go-Getters-g64/g-hq">github.com/lizzrobbins/umigo</a></p>
 
-          <p className="project-description">• A description here</p>
+          <p className="project-description">• A mobile social networking app that connects outdoor enthusiasts</p>
 
-          <p className="project-technologies">Technologies used: React Native, Express, Node.js, Knex.js, PostgreSQL, Bootstrap, hbs</p>
+          <p className="project-technologies">Technologies used: React Native, Express, Node.js, Knex.js, PostgreSQL</p>
         </p>
         <p className="portfolio-item">
           <h3 className="project-title">gHQ</h3>
