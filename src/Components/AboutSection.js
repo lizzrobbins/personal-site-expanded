@@ -4,6 +4,7 @@ class AboutSection extends Component {
   render() {
     return(
       <div className="about-container">
+        <a name="about"></a>
         <p className="about-title">About Me</p>
         <p className="about-content">
           As a future-oriented full stack developer, I bring years of experience guiding clients and customers through an ever-changing technological landscape.
