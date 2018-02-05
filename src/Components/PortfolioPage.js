@@ -11,7 +11,7 @@ class PortfolioPage extends Component {
         <a name="portfolio"></a>
 
         <div className="portfolio-item">
-          <img src={umigoLogo} className="portfolio-images" alt="UmiGo logo" />
+          <img src={umigoLogo} className="portfolio-images" alt="Purple mountain logo" />
           <div className="project-info">
             <h3 className="project-title">Capstone: UmiGo</h3>
             <div className="project-links">
@@ -23,8 +23,8 @@ class PortfolioPage extends Component {
         </div>
 
         <div className="portfolio-item">
-          <img src={ghqLogo} className="portfolio-images" alt="UmiGo logo" />
-          <div className="project-info">          
+          <img src={ghqLogo} className="portfolio-images" alt="Circle with gHQ inside" />
+          <div className="project-info">
             <h3 className="project-title">gHQ</h3>
             <div className="project-links">
               <a href="galvanize-hq.firebaseapp.com">galvanize-hq.firebaseapp.com</a> | <a href="github.com/Go-Getters-g64/g-hq">github.com/Go-Getters-g64/g-hq</a>
@@ -35,7 +35,7 @@ class PortfolioPage extends Component {
         </div>
 
         <div className="portfolio-item">
-          <img src={waitticketLogo} className="portfolio-images" alt="UmiGo logo" />
+          <img src={waitticketLogo} className="portfolio-images" alt="Wait Ticket logo and tagline" />
           <div className="project-info">
             <h3 className="project-title">waiTTicket</h3>
             <div className="project-links">
@@ -49,7 +49,7 @@ class PortfolioPage extends Component {
         </div>
 
         <div className="portfolio-item">
-          <img src={roomieLogo} className="portfolio-images" alt="UmiGo logo" />
+          <img src={roomieLogo} className="portfolio-images" alt="Screenshot of roommate expense calculator" />
           <div className="project-info">
             <h3 className="project-title">Roomie Owes How Much?</h3>
             <div className="project-links">
