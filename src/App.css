@@ -51,6 +51,14 @@ header {
   padding: 0 2vh 2vh 2vh;
   background-color: 0 0 15px white;
   position: absolute;
+  width: 30vw;
+  display: flex;
+  justify-content: space-around;
+}
+
+.outer-nav-links {
+  height: 2em;
+  width: 8em;
 }
 
 .nav-links {
@@ -58,7 +66,7 @@ header {
   color: black;
   text-shadow: 0 0 10px white;
   text-decoration: none;
-  transition: all .5s ease-out;
+  transition: all .25s ease-out;
 }
 
 .nav-links:hover {
@@ -67,6 +75,8 @@ header {
   text-shadow: 0 0 0;
   letter-spacing: 2px;
   font-weight: 100;
+  overflow: hidden;
+  width: 8em;
 }
 
 .main-intro {
@@ -114,11 +124,6 @@ header {
   align-items: center;
 }
 
-.contact-container > a > img {
-  height: 3em;
-  transition: all .25s ease-out;
-}
-
 .contact-container > a {
   position: relative;
   height: 4em;
@@ -131,17 +136,16 @@ header {
   align-items: center;
 }
 
+.contact-container > a > img {
+  height: 3em;
+  transition: all .25s ease-out;
+}
+
 .contact-container > a > img:hover {
   position: relative;
   height: 4em;
   overflow: hidden;
 }
-
-/* .contact-container > a > img::after {
-  display: block;
-  overflow: hidden;
-  visibility: hidden;
-} */
 
 
 /* AboutSection */
@@ -191,7 +195,7 @@ header {
   height: 38vh;
 }
 
-.portfolio-images {
+.umigo-logo, .ghq-logo, .waitticket-logo, .roomie-logo {
   height: 18em;
   width: 18em;
   background-color: #FCFCFC;

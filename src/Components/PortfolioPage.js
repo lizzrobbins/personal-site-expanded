@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import umigoLogo from '../images/umigo.png';
-import ghqLogo from '../images/ghq.png';
+import umigoLogo from '../images/umigo2.jpg';
+import ghqLogo from '../images/ghq2.png';
 import waitticketLogo from '../images/waitticket.jpg';
 import roomieLogo from '../images/roomie.jpg';
 
@@ -11,7 +11,7 @@ class PortfolioPage extends Component {
         <a name="portfolio"></a>
 
         <div className="portfolio-item">
-          <img src={umigoLogo} className="portfolio-images" alt="Purple mountain logo" />
+          <img src={umigoLogo} className="umigo-logo" alt="Purple mountain logo" />
           <div className="project-info">
             <h3 className="project-title">Capstone: UmiGo</h3>
             <div className="project-links">
@@ -23,7 +23,7 @@ class PortfolioPage extends Component {
         </div>
 
         <div className="portfolio-item">
-          <img src={ghqLogo} className="portfolio-images" alt="Circle with gHQ inside" />
+          <img src={ghqLogo} className="ghq-logo" alt="Circle with gHQ inside" />
           <div className="project-info">
             <h3 className="project-title">gHQ</h3>
             <div className="project-links">
@@ -35,7 +35,7 @@ class PortfolioPage extends Component {
         </div>
 
         <div className="portfolio-item">
-          <img src={waitticketLogo} className="portfolio-images" alt="Wait Ticket logo and tagline" />
+          <img src={waitticketLogo} className="waitticket-logo" alt="Wait Ticket logo and tagline" />
           <div className="project-info">
             <h3 className="project-title">waiTTicket</h3>
             <div className="project-links">
@@ -49,7 +49,7 @@ class PortfolioPage extends Component {
         </div>
 
         <div className="portfolio-item">
-          <img src={roomieLogo} className="portfolio-images" alt="Screenshot of roommate expense calculator" />
+          <img src={roomieLogo} className="roomie-logo" alt="Screenshot of roommate expense calculator" />
           <div className="project-info">
             <h3 className="project-title">Roomie Owes How Much?</h3>
             <div className="project-links">
