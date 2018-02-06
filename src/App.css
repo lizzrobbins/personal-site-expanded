@@ -58,12 +58,15 @@ header {
   color: black;
   text-shadow: 0 0 10px white;
   text-decoration: none;
+  transition: all .5s ease-out;
 }
 
 .nav-links:hover {
-  color: #baa1c9;
-  background-color: black;
+  color: #FFA800;
+  background-color: rgba(28,28,28,.6);
   text-shadow: 0 0 0;
+  letter-spacing: 2px;
+  font-weight: 100;
 }
 
 .main-intro {
@@ -103,19 +106,42 @@ header {
   margin-top: 15vh;
 }
 
-.contact-icons > a > img {
-  position: relative;
-  height: 3em;
-  margin: 2vh 2vh 2vh 2vh;
-  -webkit-filter: drop-shadow(0 0 10px white);
-  filter: drop-shadow(0 0 10px white);
+.contact-container {
+  height: 10vh;
+  width: 20vw;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
-.contact-icons > a > img:hover {
+.contact-container > a > img {
+  height: 3em;
+  transition: all .25s ease-out;
+}
+
+.contact-container > a {
   position: relative;
   height: 4em;
-  margin: 2vh 2vh 2vh 2vh;
+  width: 4em;
+  -webkit-filter: drop-shadow(0 0 10px white);
+  filter: drop-shadow(0 0 10px white);
+  transition: all .25s ease-out;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
+.contact-container > a > img:hover {
+  position: relative;
+  height: 4em;
+  overflow: hidden;
+}
+
+/* .contact-container > a > img::after {
+  display: block;
+  overflow: hidden;
+  visibility: hidden;
+} */
 
 
 /* AboutSection */
@@ -124,17 +150,27 @@ header {
   font-size: 20px;
   text-align: left;
   padding: 10vh;
+  display: flex;
 }
 
 .about-content {
   color: black;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  letter-spacing: .5px;
 }
 
 .about-title {
   font-size: 5vh;
   margin-top: 0;
-  color: #3D233F;
+  color: #421835;
+}
+
+.my-photo {
+  height: 20em;
+  width: auto;
+  border: 5px solid #421835;
+  margin-left: 5vw;
 }
 
 
@@ -161,10 +197,11 @@ header {
   background-color: #FCFCFC;
   border-radius: 50%;
   margin-right: 5em;
+  border: 5px solid #FFA800;
 }
 
 .project-title {
-  color: #baa1c9;
+  color: #FFA800;
   font-size: 30px;
   margin: 0 0 0 0;
 }
@@ -181,8 +218,10 @@ header {
 
 .project-links, .project-description, .project-technologies {
   padding: 0vh 3vh 0vh 3vh;
-  font-size: 16px;
+  font-size: 18px;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 200;
+  letter-spacing: .5px;
 }
 
 .project-links, .project-technologies {
