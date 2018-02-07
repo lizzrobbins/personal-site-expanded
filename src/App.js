@@ -15,9 +15,9 @@ class App extends Component {
       <div className="App">
         <Favicon url={logo} />
         <header className="App-header">
-          <img src={purpleLogo} className="App-logo-purple" alt="purple logo" />
-          <img src={logo} className="App-logo" alt="logo" />
-          <Nav />
+          {/* <img src={purpleLogo} className="App-logo-purple" alt="purple logo" />
+          <img src={logo} className="App-logo" alt="logo" /> */}
+          {/* <Nav /> */}
           <MainTitle />
         </header>
         <main>

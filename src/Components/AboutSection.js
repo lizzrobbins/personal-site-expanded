@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import myPhoto from '../images/photo-of-me.jpg';
+import myPhoto from '../images/lizz-robbins-chillin-sunset.jpg';
 
 class AboutSection extends Component {
   render() {
