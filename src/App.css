@@ -162,7 +162,9 @@ header {
 
 /* AboutSection */
 .about-container {
-  background-color: #fcfcfc;
+  background: url('./images/section2-background.jpg') no-repeat center center fixed;
+  height: 50vh;
+  /* background-color: #fcfcfc; */
   font-size: 20px;
   text-align: left;
   padding: 10vh;
@@ -170,16 +172,24 @@ header {
 }
 
 .about-content {
-  color: black;
+  color: white;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 300;
   letter-spacing: .5px;
 }
 
 .about-title {
-  font-size: 5vh;
+  font-size: 5em;
   margin-top: 0;
-  color: #421835;
+  background-color: #38374c;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  text-shadow: rgba(107,103,143,0.5) 0px 3px 3px;
+  margin-bottom: .5em;
+  border-bottom: 6px solid #38374c;
+  height: 1.15em;
 }
 
 .my-photo {
