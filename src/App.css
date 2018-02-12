@@ -19,29 +19,6 @@ header {
   justify-content: center;
 }
 
-/* .App-logo, .App-logo-purple {
-  height: 8em;
-  margin: 2vh 2vh 2vh 2vh;
-  position: absolute;
-  left: 0;
-  -webkit-filter: drop-shadow(0 0 5px white);
-  filter: drop-shadow(0 0 5px white);
-}
-
-.App-logo-purple {
-  z-index: 0;
-}
-
-.App-logo {
-  z-index: 1;
-}
-
-.App-logo:hover {
-  height: 8em;
-  margin: 2vh 2vh 2vh 2vh;
-  opacity: 0;
-} */
-
 .App-intro {
   font-size: large;
 }
@@ -99,6 +76,20 @@ header {
   align-items: center;
   top: 0;
   z-index: 1;
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-bottom: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
 }
 
 .nav-link-container {
@@ -166,19 +157,28 @@ header {
 
 /* AboutSection */
 .about-container {
-  background: url('./images/section2-background.jpg') no-repeat center center fixed;
-  height: 70vh;
+  /* background: url('./images/lizz-robbins-chillin-sunset.jpg') no-repeat center center fixed; */
+  height: 100vh;
   /* background-color: #fcfcfc; */
   font-size: 20px;
   text-align: left;
-  padding: 4em;
+  /* padding: 4em; */
   display: flex;
-  align-items: center;
+  /* align-items: center; */
+}
+
+.my-background-photo {
+  z-index: -1;
+  position: absolute;
+  width: 100vw;
+  left: 0;
 }
 
 .about-info {
-  background-color: rgba(255,255,255,.1);
-  padding: 1em;
+  padding: 1em 1em 1em 2em;
+  /* height: 30vh; */
+  width: 50vw;
+  /* background-color: rgba(255,255,255,.5); */
 }
 
 .about-content {
@@ -213,32 +213,40 @@ header {
 
 /* PortfolioPage */
 .portfolio-container {
-  background-color: #1C1C1C;
-  padding: 10vh 10vh 8vh 10vh;
+  /* background-color: pink; */
+  background: url('./images/section3-background.jpg') no-repeat center center fixed;
+  width: 100vw;
+  padding: 20vh 20vh 20vh 20vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .portfolio-item {
   color: white;
+  background-color: #7F8686;
   font-family: Futura, "Trebuchet MS", Arial, sans-serif;
   margin-top: 0;
-  margin-bottom: 0;
-  padding-bottom: 2vh;
+  margin-bottom: 5em;
   display: flex;
   align-items: center;
-  height: 38vh;
+  height: 20em;
+  width: 75vw;
+  box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.55);
+  border-radius: 5px;
 }
 
 .umigo-logo, .ghq-logo, .waitticket-logo, .roomie-logo {
   height: 18em;
-  width: 18em;
-  background-color: #FCFCFC;
+  /* width: 18em; */
+  background-color: black;
   border-radius: 50%;
-  margin-right: 5em;
-  border: 5px solid #FFA800;
+  margin: 20px;
+  box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.55);
 }
 
 .project-title {
-  color: #FFA800;
+  color: #300B24;
   font-size: 30px;
   margin: 0 0 0 0;
 }

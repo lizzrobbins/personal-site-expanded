@@ -9,7 +9,9 @@ class AboutSection extends Component {
 
         <Nav navStick={this.props.navStick} />
 
+
         <div className="about-container">
+          <img src={myPhoto} className="my-background-photo" alt="Me lounging casually on stairs outside" />
           <div className="about-info">
             <a name="about"></a>
             <p className="about-title">About Me</p>
@@ -23,7 +25,7 @@ class AboutSection extends Component {
               This industry is the wave of the future, ever-growing, ever changing, and I am thrilled to be in the middle of it.
             </p>
           </div>
-          <img src={myPhoto} className="my-photo" alt="Me lounging casually on stairs outside" />
+          {/* <img src={myPhoto} className="my-photo" alt="Me lounging casually on stairs outside" /> */}
         </div>
       </div>
     )

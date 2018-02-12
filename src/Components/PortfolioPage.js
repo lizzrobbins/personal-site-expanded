@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import umigoLogo from '../images/umigo2.jpg';
 import ghqLogo from '../images/ghq2.png';
-import waitticketLogo from '../images/waitticket.jpg';
+import waitticketLogo from '../images/waitticket2.jpg';
 import roomieLogo from '../images/roomie.jpg';
 
 class PortfolioPage extends Component {
@@ -15,7 +15,7 @@ class PortfolioPage extends Component {
           <div className="project-info">
             <h3 className="project-title">Capstone: UmiGo</h3>
             <div className="project-links">
-              <a href="github.com/Go-Getters-g64/g-hq">github.com/lizzrobbins/umigo</a>
+              <a href="https://github.com/Go-Getters-g64/g-hq" target="_blank" rel="noopener noreferrer">github.com/lizzrobbins/umigo</a>
             </div>
             <p className="project-description">• A mobile social networking app that connects outdoor enthusiasts</p>
             <p className="project-technologies">Technologies used: React Native, Express, Node.js, Knex.js, PostgreSQL</p>
@@ -27,7 +27,7 @@ class PortfolioPage extends Component {
           <div className="project-info">
             <h3 className="project-title">gHQ</h3>
             <div className="project-links">
-              <a href="galvanize-hq.firebaseapp.com">galvanize-hq.firebaseapp.com</a> | <a href="github.com/Go-Getters-g64/g-hq">github.com/Go-Getters-g64/g-hq</a>
+              <a href="https://galvanize-hq.firebaseapp.com" target="_blank" rel="noopener noreferrer">galvanize-hq.firebaseapp.com</a> | <a href="https://github.com/Go-Getters-g64/g-hq" target="_blank" rel="noopener noreferrer">github.com/Go-Getters-g64/g-hq</a>
             </div>
             <p className="project-description">• A one stop shop portal for gStudents to find all the necessary resources to succeed</p>
             <p className="project-technologies">Technologies used: React, Express, Node.js, Knex.js, PostgreSQL, Bootstrap, hbs</p>
@@ -39,7 +39,7 @@ class PortfolioPage extends Component {
           <div className="project-info">
             <h3 className="project-title">waiTTicket</h3>
             <div className="project-links">
-                <a href="waitticket.herokuapp.com">waitticket.herokuapp.com</a> | <a href="github.com/lizzrobbins/Wait-Ticket">github.com/lizzrobbins/Wait-Ticket</a>
+                <a href="http://waitticket.herokuapp.com" target="_blank" rel="noopener noreferrer">waitticket.herokuapp.com</a> | <a href="https://github.com/lizzrobbins/Wait-Ticket" target="_blank" rel="noopener noreferrer">github.com/lizzrobbins/Wait-Ticket</a>
             </div>
             <p className="project-description">•	Provides an easy and free way to obtain tickets to events at the last minute</p>
             <p className="project-description">
@@ -53,7 +53,7 @@ class PortfolioPage extends Component {
           <div className="project-info">
             <h3 className="project-title">Roomie Owes How Much?</h3>
             <div className="project-links">
-              <a href="erobbins1479.surge.sh">erobbins1479.surge.sh</a> | <a href="github.com/lizzrobbins/q1-project">github.com/lizzrobbins/q1-project</a>
+              <a href="https://erobbins1479.surge.sh" target="_blank" rel="noopener noreferrer">erobbins1479.surge.sh</a> | <a href="https://github.com/lizzrobbins/q1-project" target="_blank" rel="noopener noreferrer">github.com/lizzrobbins/q1-project</a>
             </div>
             <p className="project-description">•	A roommate bill calculator that allows for an easy and streamlined way to calculate the rent totals for multiple roommates</p>
             <p className="project-technologies">Technologies used: HTML, CSS, JavaScript, Bootstrap</p>
