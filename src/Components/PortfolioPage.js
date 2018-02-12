@@ -15,7 +15,7 @@ class PortfolioPage extends Component {
           <div className="project-info">
             <h3 className="project-title">Capstone: UmiGo</h3>
             <div className="project-links">
-              <a href="https://github.com/Go-Getters-g64/g-hq" target="_blank" rel="noopener noreferrer">github.com/lizzrobbins/umigo</a>
+              <a href="https://github.com/lizzrobbins/umigo" target="_blank" rel="noopener noreferrer">github.com/lizzrobbins/umigo</a>
             </div>
             <p className="project-description">• A mobile social networking app that connects outdoor enthusiasts</p>
             <p className="project-technologies">Technologies used: React Native, Express, Node.js, Knex.js, PostgreSQL</p>
