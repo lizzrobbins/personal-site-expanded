@@ -19,7 +19,7 @@ class Nav extends Component {
             <a href="#portfolio" className="nav-links">PORTFOLIO</a>
           </div>
           <div className="outer-nav-links">
-            <a href="https://drive.google.com/file/d/1x5chLA0mDRFHjBzTJuTPsk0j4LKYmo0q/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="nav-links">RESUME</a>
+            <a href="https://drive.google.com/file/d/12FSXZPqtAWluF2R0z_rpSFyBS-kt8kxA/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="nav-links">RESUME</a>
           </div>
         </div>
 
